@@ -1,6 +1,5 @@
 
 import ChildtoPerent from "./DataPassing_PtoC/ChildtoPerent";
-import ObPassing from "./DataPassing_PtoC/ObPassing";
 
 function App() {
 
@@ -13,8 +12,6 @@ function App() {
     <div>
       <h1>Heading</h1>
       <ChildtoPerent onChildData={RecieveData} />
-
-      <ObPassing />
     </div>
   );
 }
